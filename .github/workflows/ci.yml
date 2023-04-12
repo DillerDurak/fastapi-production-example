@@ -28,4 +28,4 @@ jobs:
           mypy ./
       - name: Run pylint
         run: |
-          pylint ./prodcution_fastapi
+          pylint ./production_fastapi
