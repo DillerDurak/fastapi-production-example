@@ -6,7 +6,8 @@ jobs:
   run_tests:
     runs-on: ubuntu-latest
 
-    enviroment: tests
+    environment: tests
+
     env:
       MAIN_URL: ${{ vars:MAIN_URL }}
 
